@@ -22,7 +22,7 @@
 
 		<article class="legal">
 			<h1>Privacy Policy</h1>
-			<p class="meta">Effective date: 11 September 2026 &nbsp;·&nbsp; Last updated: 11 September 2026</p>
+			<p class="meta">Effective date: 11 September 2026 &nbsp;·&nbsp; Last updated: 18 September 2026</p>
 			<p>This Privacy Policy explains how <strong>KingSPi</strong> (“we”, “us”), the independent developer of the mobile game <strong>Spellbun</strong> (the “Game”), collects, uses, stores, and shares information when you play Spellbun on iOS or Android.</p>
 			<p>By installing or using the Game, you agree to this Policy. If you do not agree, do not use the Game. Our <a href="../terms/">Terms &amp; Conditions</a> also apply.</p>
 
@@ -61,7 +61,7 @@
 			<ul>
 				<li><strong>On device.</strong> Progress is stored locally (for example story progress, wallet, settings, and language).</li>
 				<li><strong>Cloud save.</strong> The same progress payload is synced to our database so you can restore after reinstall once an account is linked or the anonymous session is still valid.</li>
-				<li><strong>Language.</strong> English or French, used for the UI, dictionary, and Arcade boards.</li>
+				<li><strong>Language.</strong> The Game ships in English. Your language preference is stored on the device and in cloud save so we can offer more languages later (French is prepared in the Game but not enabled at launch).</li>
 			</ul>
 
 			<h3>Arcade leaderboards</h3>
@@ -70,7 +70,7 @@
 				<li>your high score and when it was set;</li>
 				<li>a player name you choose (up to 16 characters);</li>
 				<li>a country code (two letters, or a placeholder if none is available);</li>
-				<li>the language of that board (English or French).</li>
+				<li>the language of that board (English at launch).</li>
 			</ul>
 			<p>Other players can see name, country, and score. Do not put personal information in your player name.</p>
 
@@ -78,7 +78,10 @@
 			<p>Optional in-app purchases (for example Remove ads and BunBun coin packs) are processed by <strong>Apple App Store</strong> or <strong>Google Play</strong>. We receive product identifiers and whether an entitlement such as ads-free is active. We do not receive your full payment card number. Restore purchases talks to Apple or Google, not to our cloud save.</p>
 
 			<h3>Analytics</h3>
-			<p>We use <strong>GameAnalytics</strong> to understand how the Game is played. Events currently include story and Arcade start, complete, fail (including quit), and sinks such as shuffle, lock, hint, and shop purchases. GameAnalytics may collect device and advertising identifiers, IP address, device type, OS version, country/region derived from IP, session data, and the player id we attach. This is used to operate and improve the Game, not to sell your data.</p>
+			<p>We use <strong>GameAnalytics</strong> to understand how the Game is played. Events currently include story, Arcade, and other mode start, complete, fail (including quit); sinks such as shuffle, lock, hint, and shop purchases; and interstitial ad outcomes (show, click, impression, fail). GameAnalytics may collect device and advertising identifiers, IP address, device type, OS version, country/region derived from IP, session data, and the player id we attach. This is used to operate and improve the Game, not to sell your data.</p>
+
+			<h3>Advertising</h3>
+			<p>On Android and iOS, unless you own <strong>Remove ads</strong>, we load Google AdMob. That may involve advertising identifiers and the technical data described in Advertising below. Consent status from Google’s User Messaging Platform may be stored on the device.</p>
 
 			<h3>Crash and error reports</h3>
 			<p>We use <strong>Sentry</strong> for native crashes and engine/script/shader errors (not ordinary warnings or print logs). Reports may include stack traces, device and OS information, app version, and the player id. They can include log snippets needed to diagnose a crash.</p>
@@ -96,41 +99,46 @@
 				<li>remember your progress, language, and entitlements;</li>
 				<li>diagnose crashes and improve stability;</li>
 				<li>understand feature use (for example which stages are failed or which shop items are bought);</li>
+				<li>show optional interstitial ads after a completed stage or Arcade run, measure them, and honour ads-free and consent choices;</li>
 				<li>prevent cheating, abuse, and technical attacks;</li>
 				<li>comply with law, store policies, and valid legal requests;</li>
 				<li>communicate about privacy or account requests you send us.</li>
 			</ul>
-			<p>Where privacy law requires a “legal basis,” we rely on: performing the contract to provide the Game; our legitimate interests in security, analytics, and debugging (balanced against your rights); your consent where required (for example certain advertising or identifier uses); and legal obligations.</p>
+			<p>Where privacy law requires a “legal basis,” we rely on: performing the contract to provide the Game; our legitimate interests in security, analytics, debugging, and (where allowed) advertising (balanced against your rights); your consent where required (for example UMP for personalised ads or certain identifiers); and legal obligations.</p>
 
 			<h2 id="share">4. How we share information</h2>
 			<p>We share information with processors who help us operate Spellbun, only as needed for their role:</p>
 			<ul>
 				<li><strong>Supabase</strong> — authentication (anonymous, Apple, Google), cloud save, Arcade leaderboards, and account deletion.</li>
 				<li><strong>Apple</strong> — App Store distribution, In-App Purchase, Sign in with Apple, and related fraud/receipt checks.</li>
-				<li><strong>Google</strong> — Google Play distribution, Play Billing, Google sign-in, and related fraud/receipt checks.</li>
+				<li><strong>Google</strong> — Google Play distribution, Play Billing, Google sign-in, related fraud/receipt checks, and (through AdMob and the User Messaging Platform) advertising and consent as described in Advertising.</li>
 				<li><strong>GameAnalytics</strong> — gameplay analytics as described above.</li>
 				<li><strong>Sentry</strong> — crash and error reporting as described above.</li>
 			</ul>
-			<p>Other players see Arcade display data you submit. We may disclose information if required by law, to protect the Game or other players, or in connection with a sale or transfer of the Game (the new operator would still have to honour this Policy or notify you of changes). We do not sell your personal information and we do not share it for cross-context behavioural advertising in the current Game.</p>
+			<p>Other players see Arcade display data you submit. We may disclose information if required by law, to protect the Game or other players, or in connection with a sale or transfer of the Game (the new operator would still have to honour this Policy or notify you of changes). We do not sell your personal information. Advertising partners may use device and advertising identifiers to serve, measure, and (where allowed) personalise ads, which some privacy laws treat as “sharing.” See Advertising for how to opt out or buy ads-free.</p>
 			<p>Those providers have their own privacy policies. You should read them if you want detail on how they process data as independent controllers or processors:</p>
 			<ul>
 				<li><a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
 				<li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
 				<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+				<li><a href="https://policies.google.com/technologies/ads">How Google uses information from sites or apps that use our services</a></li>
 				<li><a href="https://gameanalytics.com/privacy">GameAnalytics Privacy Policy</a></li>
 				<li><a href="https://sentry.io/privacy/">Sentry Privacy Policy</a></li>
 			</ul>
 
 			<h2 id="ads">5. Advertising</h2>
-			<p>The current version of Spellbun does <strong>not</strong> show third-party ads. The shop includes a <strong>Remove ads</strong> purchase so that, if we later add optional ads (for example a rewarded ad for an extra shuffle), players who bought ads-free keep that entitlement.</p>
-			<p>If we enable ads, they may be served by partners such as Google AdMob. Those partners may use advertising identifiers, IP address, and similar device data to serve, measure, and (where allowed) personalise ads. Where required, we will present a consent / privacy options flow (for example Google UMP). We will update this Policy before or when ads ship, and Play / App Store Data safety forms will be updated to match the build.</p>
-			<p>GameAnalytics may still use advertising or device identifiers for analytics even while no ads are shown. You can often reset or limit ad tracking in iOS or Android system settings.</p>
+			<p>Spellbun may show a full-screen <strong>interstitial</strong> from <strong>Google AdMob</strong> after you <em>complete</em> a story stage or Arcade run. Losses do not show an ad. The first Opening Day stage does not show an ad. There are no banner ads and no rewarded ads in the current Game. Completing the story is not gated on watching ads.</p>
+			<p>If you buy <strong>Remove ads</strong>, we skip the AdMob SDK and do not show those interstitials. Restore purchases with Apple or Google if you reinstall.</p>
+			<p>AdMob and related Google advertising services may collect advertising identifiers (for example GAID / IDFA where available), IP address, device and app information, approximate location derived from IP, and similar data to serve, measure, and (where allowed) personalise ads. Frequency capping is configured on the ad unit (for example about one interstitial every ten minutes).</p>
+			<p>Where required (for example in the EEA, UK, and Switzerland), we show Google’s <strong>User Messaging Platform (UMP)</strong> consent form before requesting ads. If privacy law requires a way to change that choice later, Settings shows a <strong>Privacy options</strong> button. UMP is configured so the Game is <strong>not</strong> treated as directed to children under the age of consent.</p>
+			<p>GameAnalytics may use advertising or device identifiers for analytics even if you own ads-free. You can often reset or limit ad tracking in iOS or Android system settings.</p>
 
 			<h2 id="keep">6. Retention</h2>
 			<ul>
 				<li><strong>Local save</strong> stays on your device until you uninstall the Game or use Delete account &amp; data.</li>
 				<li><strong>Cloud save and auth user</strong> are kept while your account exists, then removed when you delete the account (see below). Backups of our database may persist for a short period until they rotate.</li>
 				<li><strong>Arcade scores</strong> tied to your player id are deleted with account deletion.</li>
+				<li><strong>Ad and consent records</strong> on the device last until you uninstall, clear app data, or change choices in Privacy options / system settings. AdMob and Google retain ad-serving data under their policies.</li>
 				<li><strong>Analytics and crash reports</strong> are kept according to GameAnalytics and Sentry default retention (typically on the order of months, not indefinitely for our project). They may remain in aggregated, de-identified statistics.</li>
 				<li><strong>Store purchase records</strong> are kept by Apple or Google under their policies. Deleting your Spellbun account does not cancel store purchases; you can Restore purchases after you play again.</li>
 			</ul>
@@ -143,25 +151,26 @@
 			<ul>
 				<li><strong>Play without linking.</strong> Linking Apple or Google is optional. Unlinked progress may be lost if you uninstall or lose the anonymous session.</li>
 				<li><strong>Delete account &amp; data</strong> in Settings removes your cloud save, matching Arcade records, and local progress, signs you out, and starts a new anonymous session. Store purchases stay with Apple or Google.</li>
-				<li><strong>Language</strong> can be switched between English and French in Settings.</li>
+				<li><strong>Remove ads</strong> in the shop stops interstitials. Store purchases stay with Apple or Google if you delete the Spellbun account.</li>
+				<li><strong>Privacy options</strong> in Settings (when shown) lets you change advertising consent collected through UMP.</li>
 				<li><strong>System settings</strong> on your device can limit advertising identifiers, background data, and (on iOS) tracking permission.</li>
 			</ul>
 			<h3>Privacy law rights</h3>
 			<p>Depending on where you live (for example the EEA, UK, or certain US states), you may have rights to access, correct, delete, or export personal data, to object to or restrict certain processing, and to withdraw consent. You may also lodge a complaint with a data protection authority. To exercise rights that the in-app delete flow does not cover, contact us using the details below. We may need to verify the request (for example by confirming a linked account or player id) and we may refuse requests that are unlawful or would harm other players’ privacy.</p>
-			<p>If you are a California resident, we do not sell or share personal information as those terms are used in the CCPA/CPRA. We do not use or disclose sensitive personal information for purposes that require a right to limit under that law.</p>
+			<p>If you are a California resident, we do not sell personal information for money. AdMob may use identifiers for advertising that some laws call “sharing.” You can opt out of personalised ads through UMP / Privacy options where shown, through device ad settings, or by buying Remove ads. We do not use or disclose sensitive personal information for purposes that require a right to limit under the CCPA/CPRA.</p>
 
 			<h2 id="children">9. Children</h2>
-			<p>Spellbun is a cute game, but it is <strong>not directed to children under 13</strong> and we do not knowingly collect personal information from children under 13. In-app purchases (and possible future ads) are not intended for that age group. If you believe we have collected data from a child under 13, contact us and we will delete it. Parents and guardians should use device-level purchase controls.</p>
+			<p>Spellbun is a cute game, but it is <strong>not directed to children under 13</strong> and we do not knowingly collect personal information from children under 13. We do not treat the Game as child-directed for advertising (AdMob / UMP are not tagged for under the age of consent). In-app purchases and ads are not intended for that age group. If you believe we have collected data from a child under 13, contact us and we will delete it. Parents and guardians should use device-level purchase and ad controls.</p>
 
 			<h2 id="transfers">10. International transfers</h2>
 			<p>We and our providers may process data in countries other than yours (including the United States and the European Union). Those countries may have different data protection laws. Providers may use standard contractual clauses or other lawful transfer mechanisms where required.</p>
 
 			<h2 id="changes">11. Changes</h2>
-			<p>We may update this Policy when the Game or the law changes (for example if we add ads or a new SDK). The “Last updated” date will change. Material changes will be reflected on this page; continued use after an update means you accept the revised Policy where permitted by law.</p>
+			<p>We may update this Policy when the Game or the law changes (for example a new ad format, mediation partner, or SDK). The “Last updated” date will change. Material changes will be reflected on this page; continued use after an update means you accept the revised Policy where permitted by law.</p>
 
 			<h2 id="contact">12. Contact</h2>
 			<p>Privacy questions and data requests: open an issue on the public repository that hosts this page, <a href="https://github.com/KingSPi-GH/Spellbun-Docs/issues">KingSPi-GH/Spellbun-Docs</a>, with enough detail for us to find your account (do not post secrets). For account deletion, use <strong>Delete account &amp; data</strong> in Spellbun Settings; that is the primary and fastest path.</p>
-			<p>This page is meant to match the Game as shipped. Store Data safety / App Privacy labels should be filled from the same facts: anonymous and linked accounts, cloud save, Arcade scores, Apple/Google sign-in, store purchases, GameAnalytics, Sentry, HTTPS, and in-app deletion. Revisit those forms if AdMob or another SDK is added.</p>
+			<p>This page is meant to match the Game as shipped. Store Data safety / App Privacy labels should be filled from the same facts: anonymous and linked accounts, cloud save, Arcade scores, Apple/Google sign-in, store purchases, GameAnalytics, Sentry, AdMob interstitials and UMP consent, HTTPS, and in-app deletion. Revisit those forms if you add mediation, rewarded ads, or another SDK.</p>
 		</article>
 
 		<footer class="site">

@@ -12,7 +12,9 @@ This repository is meant to be public and served with **GitHub Pages** so Google
 | [Privacy Policy](privacy/) | `https://kingspi-gh.github.io/Spellbun-Docs/privacy/` |
 | [Terms & Conditions](terms/) | `https://kingspi-gh.github.io/Spellbun-Docs/terms/` |
 
-The privacy policy covers anonymous and linked accounts, cloud save, Arcade records, Apple/Google sign-in, store purchases, GameAnalytics, Sentry, optional future ads, retention, and in-app **Delete account & data**. The terms cover eligibility (13+), the license to play, virtual items (Remove ads, BunBun coins), leaderboards, acceptable use, and store-specific notes.
+The privacy policy covers anonymous and linked accounts, cloud save, Arcade records, Apple/Google sign-in, store purchases, GameAnalytics, Sentry, **AdMob interstitials + UMP consent**, retention, and in-app **Delete account & data**. The terms cover eligibility (13+), the license to play, ads, virtual items (Remove ads, BunBun coins), leaderboards, acceptable use, and store-specific notes.
+
+Update the **Last updated** date on both legal pages when the Game’s data practices change. Keep Play Data safety and Apple privacy labels in lockstep with the policy.
 
 ## Enable GitHub Pages
 
@@ -31,7 +33,7 @@ Paste the Privacy URL into Play Console (app content / Data safety) and App Stor
 - `terms/index.html` — terms & conditions
 - `styles.css` — shared layout
 
-Update the **Last updated** date on both legal pages when the Game’s data practices change (new SDK, ads going live, new purchase types). Keep Play Data safety and Apple privacy labels in lockstep with the policy.
+Current Game facts to keep in the legal pages: English at launch, AdMob interstitial after completed stages (not losses, not Opening Day w1s1), no banners/rewarded ads, UMP not tagged for under-age, Remove ads skips the SDK.
 
 ## Contact
 
